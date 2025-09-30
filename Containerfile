@@ -55,4 +55,4 @@ USER grafana
 
 # Command to run Grafana
 ENTRYPOINT ["/usr/share/grafana/bin/grafana"]
-CMD ["--homepath", "/usr/share/grafana", "--config", "/etc/grafana/grafana.ini", "web"]
+CMD ["server"]
